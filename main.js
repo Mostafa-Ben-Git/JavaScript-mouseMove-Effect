@@ -1,7 +1,7 @@
-let code = document.querySelector("pre");
+const pre = document.querySelector("pre");
 
-window.addEventListener("mouseover", (e) => {
-  rotateElement(e, code);
+document.addEventListener("mousemove", (e) => {
+  rotateElement(e, pre);
 });
 
 function rotateElement(event, element) {
@@ -11,8 +11,8 @@ function rotateElement(event, element) {
   const middleX = window.innerWidth / 2;
   const middleY = window.innerHeight / 2;
 
-  const offsetX = ((x - middleX) / middleX) * 50;
-  const offsetY = ((y - middleY) / middleY) * 50;
+  const offsetX = ((x - middleX) / middleX) * 40;
+  const offsetY = ((y - middleY) / middleY) * 40;
   //   console.log(offsetX, offsetY);
 
   element.style.setProperty("--rotateX", offsetX + "deg");

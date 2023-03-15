@@ -11,7 +11,7 @@
   padding: 0;
 }
 body {
-  background: hsl(224, 32%, 12%);
+  background: hsl(134, 40%, 35%);
   background-image: conic-gradient(
     from 0deg at 50% 50%,
     blue,
@@ -25,6 +25,7 @@ body {
   display: grid;
   place-items: center;
   color: var(--white);
+  overflow: hidden;
 }
 
 pre {
@@ -36,7 +37,6 @@ pre {
   position: relative;
   transform: perspective(6000px) rotateX(var(--rotateY)) rotateY(var(--rotateX));
   transform-style: preserve-3d;
-  transition: 0.5s;
 }
 .selector {
   color: var(--green);
@@ -67,10 +67,4 @@ pre::before {
   opacity: 0.5;
   filter: blur(10px);
   background: black;
-}
-
-.parent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
