@@ -1,4 +1,4 @@
-# JavaScript-mouseMove-Effect[View The site](https://mostafa-ben-git.github.io/JavaScript-mouseMove-Effect/).
+# JavaScript-mouseMove-Effect [View The site](https://mostafa-ben-git.github.io/JavaScript-mouseMove-Effect/).
 
 ![image](https://user-images.githubusercontent.com/120031134/234561280-934b7c14-36ce-482e-b9e5-bdda4c20d4f0.png)
 
